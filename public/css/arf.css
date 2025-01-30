@@ -1,0 +1,63 @@
+body {
+  background-color: #1F242D;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#body {
+  margin: 0 auto;
+  position: relative;
+  cursor: url('https://msu-portfolio.vercel.app/assets/cursor/icons8-mouse-cursor-24.png'), auto;
+
+}
+
+#header {
+  font-size: 40px;
+  font-weight: bold;
+  top: 20px;
+  text-align: center;
+  color: #00dafb;
+}
+
+.legend {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 330px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: #0059ff;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 12px;
+  fill:rgb(255, 255, 255) ;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+
+
+#footer{
+  font-size: 14px;
+  font-weight: bold;
+  top: 20px;
+  text-align: center;
+  color: #00dafb;
+  
+}
